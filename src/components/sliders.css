@@ -1,0 +1,34 @@
+/* sliders.css */
+
+.sliders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .slider {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: gray;
+  }
+  
+  #pet-select {
+    background-color: rgb(211, 211, 211);
+    border-bottom: 3px solid #000080;
+  }
+  
